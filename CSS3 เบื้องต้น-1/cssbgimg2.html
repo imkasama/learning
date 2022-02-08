@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css bg img scroll + position</title>
+    <style>
+        body{
+            background-image: url(https://cdn.pixabay.com/photo/2015/10/16/19/18/balloon-991680_960_720.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        div{
+            border: 5px dashed orange;
+            padding: 100px;
+            margin: 50px;
+            background-color: bisque;
+        }
+        .box-1{
+            background-color: red;
+            color: white;
+            background-image: url(images/img1.png);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            background-size: contain;
+        }
+        .box-2{
+            background-color: hsl(27, 100%, 50%);
+            background-image: url(https://cdn.pixabay.com/photo/2015/02/13/00/43/apples-634572_960_720.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .box-3{
+            /*background-color: rgb(230, 0, 65,0.5);*/
+            background-image: url(https://cdn.pixabay.com/photo/2015/06/10/19/56/apples-805124__180.jpg);
+            background-repeat: repeat-x;
+            background-position: bottom;
+        }
+        .box-4{
+            color: whitesmoke;
+            background: url('https://cdn.pixabay.com/photo/2015/04/19/08/32/rose-729509_960_720.jpg') no-repeat fixed center;
+        }
+        img{
+            width: 30%;
+            margin-left: 10px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-1">
+        Box1 Indentation and separation are two main concepts when you are learning any programming language. This chapter talks about these two concepts related to YAML in detail
+    </div>
+    <div class="box-2">
+        Box2 Indentation and separation are two main concepts when you are learning any programming language. This chapter talks about these two concepts related to YAML in detail
+    </div>
+    <div class="box-3">
+        Box3 Indentation and separation are two main concepts when you are learning any programming language. This chapter talks about these two concepts related to YAML in detail
+    </div>
+    <div class="box-4">
+        Box4 Indentation and separation are two main concepts when you are learning any programming language. This chapter talks about these two concepts related to YAML in detail
+    </div>
+    <img src="https://cdn.pixabay.com/photo/2021/12/18/06/01/sunset-6878021_960_720.jpg">
+    <img src="https://cdn.pixabay.com/photo/2021/12/18/06/01/sunset-6878021_960_720.jpg">
+    <img src="https://cdn.pixabay.com/photo/2021/12/18/06/01/sunset-6878021_960_720.jpg">
+
+</body>
+</html>

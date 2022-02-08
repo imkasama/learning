@@ -1,0 +1,17 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: repeat(3,100px);
+    grid-template-columns: repeat(4,auto);
+}
+.item{
+    padding: 3rem;
+    border: 1px solid #ccc;
+    background: orange;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.item:first-child{
+    grid-row: 1/span 3;
+    grid-column: 1/span 2;
+}

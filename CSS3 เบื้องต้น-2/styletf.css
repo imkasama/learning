@@ -1,0 +1,15 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 100px;
+
+    /* ย้ายตำแหน่งกล่อง */
+    /* transform: translate(150px,100px); */
+    /* transform: rotate(20deg); */
+    /* transform: rotateY(10deg); */
+    /* transform: scale(2); */
+    /* transform: scale(1.7,1); */
+    transform: skew(10deg,20deg);
+}
